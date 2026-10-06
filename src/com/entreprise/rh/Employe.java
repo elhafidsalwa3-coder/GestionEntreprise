@@ -1,7 +1,7 @@
 package com.entreprise.rh;
 
 import com.entreprise.compta.Payable;
-//classe abstraite:elle s'exprime deux contrats payable et comparable
+//classe abstraite: elle s'exprime deux contrats payable et comparable
 public abstract class Employe implements Payable {     
 		protected String matricule;    
 		protected String nom;    

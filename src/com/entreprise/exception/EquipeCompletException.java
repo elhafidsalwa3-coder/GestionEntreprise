@@ -1,6 +1,6 @@
 package com.entreprise.exception;
 import com.entreprise.exception.*;
-//héritage:exception non vérifiée
+//héritage :exception non vérifiée
 public class EquipeCompletException extends RuntimeException{
         private int capacite;
         

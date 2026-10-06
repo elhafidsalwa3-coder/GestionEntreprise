@@ -12,7 +12,7 @@ public class DecouverteExceptions {
         }
 
         try {
-            double m = Double.parseDouble("abc");
+            double mo = Double.parseDouble("abc");
         } catch (NumberFormatException e) {
             System.out.println(e.getClass().getSimpleName() + " : " + e.getMessage());
         }

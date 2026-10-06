@@ -2,8 +2,7 @@ package com.entreprise.app;
 
 import com.entreprise.compta.Facture;
 import com.entreprise.compta.Payable;
-import com.entreprise.exception.EquipeCompleteException;
-import com.entreprise.exception.MontantInvalideException;
+import com.entreprise.exception.*;
 import com.entreprise.rh.*;
 
 public class Program {
