@@ -15,14 +15,17 @@ public class Permanent extends Employe implements Augmentable{
 		}  
 	@Override     
 	public String getPoste() { 
-			return "Permanent"; }     
+			return "Permanent"; 
+			}     
 	@Override     
 	public double getSalaire() { 
-				return salaireMensuel; }     
+				return salaireMensuel; 
+				}     
 			@Override    
 	public String toString() {       
 				return getPoste() + "[" + 
-	super.toString() + ", salaire=" + getSalaire() + "]";     }
+	super.toString() + ", salaire=" + getSalaire() + "]";  
+				}
 			@Override
 			public double getMontantPayer() {
 				// TODO Auto-generated method stub

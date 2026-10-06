@@ -8,7 +8,7 @@ import com.entreprise.rh.*;
 
 public class Program {
     public static void main(String[] args) {
-        // 1
+        
         Service service = new Service(4);
         try {
             service.ajouter(new Commercial("Karim", 3000, 40000, "Rabat"));

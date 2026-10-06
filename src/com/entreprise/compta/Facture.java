@@ -9,7 +9,7 @@ public class Facture implements Payable {
 	   this.numero=numero;
 	   this.fournisseur=fournisseur;
    }
-//le montant payer
+   //le montant payer
    @Override
    public double getMontantAPayer() {
 	return montant;
